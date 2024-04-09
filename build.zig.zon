@@ -1,0 +1,26 @@
+.{
+    .name = "zig-libgit2",
+    .version = "0.0.1",
+    .dependencies = .{
+        .mbedtls = .{
+            .url = "https://github.com/mattnite/zig-mbedtls/archive/453655c0c1d07174ab48aa01caef7b50216aa758.tar.gz",
+            .hash = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        },
+        .zlib = .{
+            .url = "https://github.com/mattnite/zig-zlib/archive/04ddd81478f35e12717535b256c9d9d52f4b8089.tar.gz",
+            .hash = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        },
+        .ssh2 = .{
+            .url = "https://github.com/mattnite/zig-libssh2/archive/2af221726d87ecaa9680ecb60b48d40563fc66cc.tar.gz",
+            .hash = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "libgit2",
+        "mbedtls.c",
+        "LICENSE",
+        "README.md",
+    },
+}
